@@ -2,7 +2,7 @@
   "name": "pokedex-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://NicolasVivalda.github.io/pokedex-react",
+  "homepage": "https://nicolasvivalda.github.io/pokedex-react/",
   "dependencies": {
     "@chakra-ui/react": "^2.3.6",
     "@emotion/react": "^11.10.4",
