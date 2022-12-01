@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid thistle;
+    background-color: dimgrey;
+    color: lightyellow;
+    text-decoration: none;
+    font-size: 1.35rem;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 100px;
+  }
+
+  .cards-container {
+    display: grid;
+    gap: .7rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  button {
+    margin: 0px 0 0 20px;
+    background-color: indianred;
+    color: lightyellow;
+    border-radius: 8px;
+    height: 6vh;
+    font-size: medium;
+  }
+
+  button:hover {
+    background-color: darkgrey;
+  }

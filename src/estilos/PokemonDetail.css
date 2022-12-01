@@ -1,0 +1,23 @@
+.detail {
+
+    background-color: #282c34;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: lightyellow;
+    text-transform: capitalize;
+    border-bottom: double yellow;
+}
+
+.back {
+    margin: 0px 0 0 20px;
+    background-color: indianred;
+    color: lightyellow;
+    border-radius: 8px;
+    height: 5vh;
+    width: 10vh;
+    font-size: medium;
+}
