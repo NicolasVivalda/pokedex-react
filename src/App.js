@@ -11,13 +11,13 @@ export function App() {
 
     <Fragment >
       <Routes>
-        <Route path='/' element={
+        <Route path='/pokedex-react' element={
           <>
             <Bienvenida />
             <PokemonList />
           </>} />
 
-        <Route path='/detail/:name' element={<PokemonDetail />} />
+        <Route path='/pokedex-react/detail/:name' element={<PokemonDetail />} />
 
       </Routes>
 
